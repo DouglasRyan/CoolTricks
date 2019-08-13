@@ -264,3 +264,9 @@ var point =
         this._angle = angle;
     },
 };
+
+
+full.onclick = (e)=>{
+    e.preventDefault() 
+    document.getElementById('canvas').requestFullscreen()
+}

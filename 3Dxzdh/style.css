@@ -4,4 +4,11 @@
 
 canvas {
 	display: block;
+	position: relative;
+}
+
+#full{
+	position: absolute;
+	top: 0;
+	color:#fff;
 }
